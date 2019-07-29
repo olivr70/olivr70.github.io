@@ -1,9 +1,19 @@
 ## le file system
 
+### volumes
+
+#### [`df`](https://linux.die.net/man/1/df) : report file system disk space usage
+
+`df -h -T` - affiche l'espage libre des différents mount points
+
+- `-t <fs>` - seulement les partitions de type **fs**
+- `-x <fs>` - exclut les partitions de type **fs**
+- `-l`, `--local` - seulement les partitions locales
+
 ### links
 
-`ln target_file link_name` - crée un hardlink vers **target_file**
-`ln -s target_file link_name` - crée un softlink vers **target_file**
+- `ln target_file link_name` - crée un hardlink vers **target_file**
+- `ln -s target_file link_name` - crée un softlink vers **target_file**
 
 ### directory structure
 
