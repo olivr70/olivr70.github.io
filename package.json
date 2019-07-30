@@ -1,0 +1,23 @@
+{
+  "name": "olivr70_github_pages",
+  "version": "1.0.0",
+  "description": "Source des github pages",
+  "main": "index.js",
+  "scripts": {
+    "start": "xdg-open 'https://olivr70.github.io/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivr70/olivr70.github.io.git"
+  },
+  "keywords": [
+    "github",
+    "pages"
+  ],
+  "author": "Olivier CHEVET <o.chevet@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/olivr70/olivr70.github.io/issues"
+  },
+  "homepage": "https://github.com/olivr70/olivr70.github.io#readme"
+}
