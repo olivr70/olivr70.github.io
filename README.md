@@ -2,6 +2,8 @@
 
 Ces pages contiennent principalement de la documentation utile sur les outils que j'utilise
 
+- [Dev tools](./dev-tools)
+
 - [Bash](./bash)
   - [History](./linux/history)
 - [Linux](./linux)
