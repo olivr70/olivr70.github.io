@@ -13,3 +13,8 @@ Pour relancer uniquement le test :
 
 Fiche sur
 [Contribution issue : failing test after fork "lifecycle-path.js" - 🐞 bugs - npm forum](https://npm.community/t/contribution-issue-failing-test-after-fork-lifecycle-path-js/9149)
+
+### Action
+
+Création d'une PR
+[Corrected test/lifecycle-path.js by olivr70 · Pull Request #228 · npm/cli](https://github.com/npm/cli/pull/228)
