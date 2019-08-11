@@ -17,6 +17,7 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
 - [Ssh](./ssh)
 - [Vim](vim/tips)
 
+Menu
 {% for page in site.pages %}
   {% if page.categories contains 'fruit' %}
     - [{{page.title}}]({{page.url}})
