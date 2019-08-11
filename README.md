@@ -17,6 +17,13 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
 - [Ssh](./ssh)
 - [Vim](vim/tips)
 
+{% for page in site.pages %}
+  {% if page.categories contains 'fruit' %}
+    - [{{page.title}}]({{page.url}})
+  {% endif %}
+{% endfor %}
+
+
 Et aussi les notes sur plusieurs tâches réalisées (ou en cours)
 
 - [Tasks](./tasks)
