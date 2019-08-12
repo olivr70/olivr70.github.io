@@ -1,21 +1,31 @@
 ---
 ---
+// Theme Leapday :  https://github.com/pages-themes/leap-day
 
 @import "{{ site.theme }}";
 
 #HeaderMain {
   position: relative;
-  background-color: yellow;
+  // background-color: yellow;
+}
+
+header {
+  padding: 10px 20px 10px 20px;
+}
+
+section {
+  margin-top: 100px
 }
 
 header a {
   color: white;
   text-decoration: none;
+  padding-right: 5px
 }
 
 #HeaderRight {
   position: absolute;
   top:0;
   right:0;
-  background-color: red;
+ // background-color: red;
 }
