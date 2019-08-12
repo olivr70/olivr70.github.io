@@ -2,3 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
+
+#HeaderMain {
+  position: relative;
+  background-color: yellow;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#HeaderRight {
+  position: absolute;
+  top:0;
+  right:0;
+  background-color: red;
+}

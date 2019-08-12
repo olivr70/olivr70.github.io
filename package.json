@@ -4,7 +4,8 @@
   "description": "Source des github pages",
   "main": "index.js",
   "scripts": {
-    "start": "xdg-open 'https://olivr70.github.io/'"
+    "start": "bundle exec jekyll serve",
+    "view": "xdg-open 'https://olivr70.github.io/'"
   },
   "repository": {
     "type": "git",

@@ -17,21 +17,26 @@
   <body>
 
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <div>
-          <span><a href="/">Home</a></span>
-          <span><a href="/bash">Bash</a></span>
-          <span><a href="/linux">Linux</a></span>
-          <span><a href="/node">Node</a></span>
-          <span><a href="/ssh">Ssh</a></span>
-          <span><a href="/vim">Vim</a></span>
+        <div id="HeaderMain">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
+          <div class="HeaderMenu">
+            <span><a href="/">Home</a></span>
+            <span><a href="/bash">Bash</a></span>
+            <span><a href="/linux">Linux</a></span>
+            <span><a href="/node">Node</a></span>
+            <span><a href="/ssh">Ssh</a></span>
+            <span><a href="/vim">Vim</a></span>
+          </div>
+        <div id="HeaderRight">
+          <a href="{{ site.github.repository_url }}">Edit avec GitHub</a>
         </div>
+      </div>
       </header>
 
+      <!--
       <div id="banner">
         <span id="logo"></span>
-
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         {% if site.show_downloads %}
           <div class="downloads">
@@ -42,7 +47,7 @@
             </ul>
           </div>
         {% endif %}
-      </div><!-- end banner -->
+      </div>--><!-- end banner -->
 
     <div class="wrapper">
       <nav>
