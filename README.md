@@ -19,6 +19,7 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
 
 et aussi
 - [GitHub Pages](/github-pages)
+- [LibreOffice](/libreoffice)
 
 Menu
 {% for page in site.pages %}
