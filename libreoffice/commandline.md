@@ -2,7 +2,7 @@ Libreoffice commande linge
 
 ### Lancement
 
-Tous les arguments : [Command-line arguments in LibreOffice | dniM ruoY nepO](https://dnimruoynepo.blogspot.com/2016/12/command-line-arguments-in-libreoffice.html)
+Tous les arguments : [Command-line arguments in LibreOffice](https://dnimruoynepo.blogspot.com/2016/12/command-line-arguments-in-libreoffice.html)
 
 ### conversion de fichier
 
