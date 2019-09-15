@@ -1,5 +1,28 @@
 ## VIM
 
+### config
+Le fichier de confif utilisateur **~/.vimrc** ou **~/.vim/vimrc** (plus de détails [Open vimrc file | Vim Tips Wiki](https://vim.fandom.com/wiki/Open_vimrc_file))
+
+
+### indentation
+Article très complet [Indenting source code | Vim Tips Wiki | FANDOM powered by Wikia](https://vim.fandom.com/wiki/Indenting_source_code)
+
+#### indentation automatique
+- **==** idente automatiquement la ligne courante
+- **=3** indente la ligne courante et les deux suivantes
+- **=G** indente automatiquement jusqu'à la fin du fichier
+- **gg=G** pour indenter tout un fichier 
+
+#### indentation manuelle
+
+- **<<** et **>>** pour diminuer ou accroitre l'indentation
+  - on peut indiquer le nombre de ligne avant **4>>** indevente les 4 lignes
+- en mode insertion
+   - **Ctrl+T** pour indenter, **Ctrl+D** pour désindenter
+- en mode visuel par lignes (**V**)
+   - **<** et **>**   pour indenter
+   - **2<** et **2>** pour plusieurs degrés d'indentation
+
 ### naviguer
 
 - **h**/**l** : car précédent/suivant
