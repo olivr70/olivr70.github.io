@@ -1,5 +1,9 @@
 All about Bash
 
+En savoir plus sur 
+- les [Variables](./variables)
+- l'[history](./history)
+
 ## Tips
 
 ### Racourcis claviers
@@ -31,3 +35,4 @@ Il y a aussi :
 ## Articles
 
 * [Here Documents](http://tldp.org/LDP/abs/html/here-docs.html)
+* [Bash One-Liners Explained, Part III: All about redirections](https://catonmat.net/bash-one-liners-explained-part-three)
