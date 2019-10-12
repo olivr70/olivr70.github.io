@@ -1,5 +1,41 @@
 ## le file system
 
+
+## Points de montage
+
+### Gestion des disques
+`sudo fdisk -l`
+
+`ls /dev/disk/by-uuid|by-id|`
+
+### gestion des points de montage
+
+`cat /etc/fstab` - affiche la configuration de montage
+`cat /etc/mtab` - liste les points de montage actifs
+
+### affichage des points de montage
+- `mount` - affiche les points de montage
+- `findmnt`
+  - `-t <type>` filtre sur le type du point de montage.  
+    Ex : **nfs**, **ext2**, **tmpfs**
+  - `-i` inverse le filtrage (exclusion au lieu d'inclusion)
+  - `-D` format similaire à df 
+  - `-J` format JSON
+
+### création de points de montage [`mount`](http://manpages.ubuntu.com/manpages/xenial/man8/mount.8.html)
+- les options
+  - `async` ou `sync`
+  - time related 
+    - `relatime` default
+    - `atime` access times are updated if kernel 
+    - `noatime` no access times
+    - `strictatime`
+    - `lazytime`, `nolazytime`
+  - permissions
+    - `suid`, `nosuid`
+    - `rw` ou `ro`
+
+
 ### volumes
 
 #### [`df`](https://linux.die.net/man/1/df) : report file system disk space usage

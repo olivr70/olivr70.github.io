@@ -19,6 +19,34 @@ En savoir plus sur
 - **Ctrl**-**K** : couper le texte entre le curseur et la fin de ligne
 - **Ctrl**-**W** : ajouter le mot précédent au presse-papier 
 
+### [`tput`(1) - Linux man page](https://linux.die.net/man/1/tput)
+A utiliser en lien avec :
+- `echo $TERM` => nom du terminal (ex : xterm-256color)
+- `infocmp` => affiche les séquences reconnues par le terminal courant
+
+#### Les commandes
+- `tput` 
+  - `sgr0` reset
+  - `bold`, `rev`
+  - `smul` et `emul` - début et fin de soulignement
+  - `smso` et `emuso` - début et fin de standout (inversé)
+  - `setaf 1` - fixe la couleur du texte (foreground)
+  - `setab 1` - fixe la couleur de fond (background)
+
+#### Les couleurs (pour `setaf` et `setab`)
+- `0` 	Black
+- `1` 	Red
+- `2` 	Green
+- `3` 	Yellow
+- `4` 	Blue
+- `5` 	Magenta
+- `6` 	Cyan
+- `7` 	White
+- `8` 	Not used
+- `9` 	Reset to default color
+
+### 
+
 
 ### heredoc
 

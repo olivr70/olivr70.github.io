@@ -11,15 +11,7 @@ Structure d'installation de Lubuntu
 
 On peut voir les partitions avec `sudo gparted &`
 
-### Gestion des disques
-`sudo fdisk -l`
 
-`ls /dev/disk/by-uuid|by-id|`
-
-### gestion des points de montage
-
-`cat /etc/fstab` - affiche la configuration de montage
-`cat /etc/mtab` - liste les points de montage actifs
 
 ## LVM Logical Volume Manager
 

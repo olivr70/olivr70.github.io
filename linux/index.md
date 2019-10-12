@@ -1,10 +1,21 @@
 Tout sur Linux
 
-- [Commandes diverses](./general.md)
+- [Commandes diverses](./general)
+- Stockage
+  - [File system](/linux/filesystem)
+  - [LVM](/linux/lvm)
+- Initialisation
+  - [cron](/linux/cron)
+  - [init.d](/linux/init_d)
+  - [runit](/linux/runit)
+  - [systemd](/linux/systemd)
+- Scripting
+  - [Variables](/linux/variables)
+  - [Text manipulation](/linux/text)
 - [Dropbox](./dropbox.md)
 - [Maintenance](./maintenance.md)
-- [File system](./filesystem.md)
-- [Logical Volume Manager](./lvm.md)
 - [Network](./network)
 - [Performance](./perf)
 - [User](./user)
+- [Test](./text)
+- [Dropbox](/linux/dropbox)
