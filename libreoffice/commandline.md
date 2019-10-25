@@ -1,4 +1,4 @@
-Libreoffice commande linge
+Libreoffice commande line
 
 ### Lancement
 
@@ -8,7 +8,7 @@ Tous les arguments : [Command-line arguments in LibreOffice](https://dnimruoynep
 
 #### en ligne de commande
 
-Attention : uniquement si aucune autre instance de Libreoffice n'est démarré
+Attention : uniquement si aucune autre instance de Libreoffice n'est démarrée
 ```soffice -env:UserInstallation=file:///tmp/tempprofile --headless --convert-to <TargetFileExtension>:<NameOfFilter> FileName ```
 soffice
 - `-env:`UserInstallation=file:///tmp/tempprofile - nécessaire pour permettre un fonctionnement
