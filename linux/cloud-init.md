@@ -18,3 +18,10 @@ Les fichiers de **/etc/cloud/cloud.cfg.d** sont exécutés
   contenu de **/var/lib/cloud/instance/vendor-data.txt**
 - `usedata` donne des informations fournies par l'utilistaeur
 - `ds.meta_data` donne des informations sur la machine
+
+
+`cat /var/log/cloud-init-output.log` pour la sortie standard des commandes (emplacement par défaut)
+`cat /var/log/cloud-init.log` pour voir le log de l'initialisation
+
+`cloud-init analyze show` - 
+`cloud-init analyze blame` - montre le temps passé dans les différents modules 
