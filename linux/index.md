@@ -1,6 +1,7 @@
 Tout sur Linux
 
 - [Commandes diverses](./general)
+- [Configuration](./configuration)
 - Stockage
   - [File system](/linux/filesystem)
   - [LVM](/linux/lvm)
@@ -9,13 +10,14 @@ Tout sur Linux
   - [init.d](/linux/init_d)
   - [runit](/linux/runit)
   - [systemd](/linux/systemd)
+- Commandes
+  - [ls](/linux/ls)
 - Scripting
   - [Variables](/linux/variables)
   - [Text manipulation](/linux/text)
-- [Dropbox](./dropbox.md)
 - [Maintenance](./maintenance.md)
 - [Network](./network)
-- [Performance](./perf)
 - [User](./user)
-- [Test](./text)
-- [Dropbox](/linux/dropbox)
+- [Text](./text)
+- [Performance](./perf)
+- [Dropbox](./dropbox.md)
