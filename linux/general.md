@@ -27,6 +27,16 @@ session de démmarrage.Pour passer de l'un à l'autre :
 - **Ctrl**+**Alt**+**F1** à **F7**
 
 
+## pwgen
+un outil pout générer des mots de passe `pwgen 10 1` génère un mot de passe de 10 caractères
+
+# mkpasswd
+un outil pour encrypter un mot de passe.
+`mkpasswd --method=sha-512 --rounds=4096` demande le mot de passe
+
+On peut aussi utiliser `pass`
+`mkpasswd --method=sha-512 --rounds=4096 $(pass show app/pass)`
+
 ## John the ripper
 un outil pour cracker les mots de passe linux. 
 
