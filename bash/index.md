@@ -1,7 +1,9 @@
 All about Bash
 
 En savoir plus sur 
-- les [Variables](./variables)
+- les [variables](./variables)
+- l'[expansion](./expansion)
+- les [redirections](./redirection)
 - l'[history](./history)
 
 ## Tips
@@ -60,6 +62,17 @@ Il y a aussi :
 * ```cat <<-``` pour supprimer les tabs initiaux
 * ```cat << "LIMIT"``` pour éviter la substitution de variables dans le text
 
+## les options du shell (`shopt`)
+
+les options de bash, rangées dans **$BASHOPTS**
+- `shopt` - liste toutes les options
+- `shopt -s OPTION` - met une option à *on*
+- `shopt -u OPTION` - met une option à *off*
+
+D'autres options sont fixées avec set (et sont rangées dans **$SHELLOPTS**)
+- `echo $SHELLOPTS`
+- `set -o allexport` - met une option à *on*
+- `set +o allexport` - met une option à *off*
 ## Articles
 
 * [Here Documents](http://tldp.org/LDP/abs/html/here-docs.html)
