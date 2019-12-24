@@ -4,7 +4,7 @@ Tout sur Linux
 - [Configuration](./configuration)
 - Stockage
   - [File system](/linux/filesystem)
-  - [LVM](/linux/lvm)
+  - [LVM](/linux/lvm) - Logical Volume Management
 - Initialisation
   - [cron](/linux/cron)
   - [init.d](/linux/init_d)
@@ -12,9 +12,12 @@ Tout sur Linux
   - [systemd](/linux/systemd)
 - Commandes
   - [ls](/linux/ls)
+  - [fichiers](/linux/files)
 - Scripting
   - [Variables](/linux/variables)
   - [Text manipulation](/linux/text)
+- [Sécurité](./security)
+  - [ssh](/ssh)
 - [Maintenance](./maintenance.md)
 - [Network](./network)
 - [User](./user)
