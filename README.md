@@ -3,6 +3,7 @@
 Ces pages contiennent principalement de la documentation utile sur les outils que j'utilise
 
 - [Dev tools](/dev-tools)
+- [Markdown](/markdown)
 
 - [Bash](./bash)
   - [History](/bash/history)
@@ -42,6 +43,9 @@ et aussi
 - [Dropbox](/linux/dropbox)
 - [GitHub Pages](/github-pages)
 - [LibreOffice](/libreoffice)
+- [NGINX](/nginx)
+- [PowerShell](/powershel)
+
 
 Menu
 {% for page in site.pages %}
