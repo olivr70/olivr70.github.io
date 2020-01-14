@@ -4,9 +4,11 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
 
 - [Dev tools](/dev-tools)
 - [Markdown](/markdown)
+- [Ansible](/ansible)
 
 - [Bash](./bash)
   - [History](/bash/history)
+- [Git](./git)
 - [Linux](/linux)
   - [Commandes diverses](/linux/general)
   - [apt](/linux/apt)
