@@ -8,6 +8,19 @@ la version, le chemin de l'exécutable,
 - `ansible-config dump --only-changed -v`  
 Affiche les variables ansible qui sont différentes des valeurs par défaut
 
+
+## ansible-inventory (alias `ai`)
+
+- `ansible-inventory`
+  - `-i <path>` - emplacement de l'inventaire (dossier ou fichier)
+  - `--list` ou ``--graph`
+
+## ansible-doc
+
+`ansible-doc -t inventory -l` fait la liste des plugins *inventory* installés. 
+On peut demander : become, cache, 
+
+
 ## ansible-vault (alias `av`)
 
 Utilitaire utilisé pour crypter les secrets de la configuration.
