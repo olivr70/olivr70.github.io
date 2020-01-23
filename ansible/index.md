@@ -5,6 +5,8 @@ Pour des informations sur les [commandes de Ansible](./commands)
 
 Pour les [détails sur Jinja2(./jinja2)], utilisé pour toutes les expressions
 
+Pour l'utilisation de [HCloud avec Ansible](./ansible_and_hcloud)
+
 ## Docs
 
 [Getting Started — Ansible Documentation](https://docs.ansible.com/ansible/latest/user_guide/intro_getting_started.html#)

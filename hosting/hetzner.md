@@ -6,6 +6,11 @@
 ### [hcloud](https://github.com/hetznercloud/cli)
 
 #### contexte
+
+Pour initialiser le contexte, on ajoute le token avec `hcloud contexte create <name>`.
+C'est une commande interactive qui demande la saisie du token Hetzner
+Cette solution est beaucoup plus sûre que d'utiliser la variable **HCLOUD_TOKEN**
+
 - `hcloud context active` ou `hcloud context list`- affiche le contexte courant
 
 #### image
