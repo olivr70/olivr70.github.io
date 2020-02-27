@@ -29,6 +29,7 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
   - [Performance](/linux/perf)
   - [Ssh](/ssh)
   - [User](/linux/user)
+  - [Terminator](/linux/terminator)
   - [Vim](/vim)
 - Hosting
   - [Hetzner - hcloud](./hosting/hetzner)
@@ -36,7 +37,8 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
     - [SSL](/nginx/ssl)
   - [Node.js](/node)
     - [Modules](/node/modules)
-
+- [Formats](/formats)
+  - [Unicode](/formats/unicode)
 Développement
 - [SSL](/css)
 - [Markdown](/markdown)
