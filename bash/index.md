@@ -1,9 +1,11 @@
-All about Bash
+# All about Bash
 
 En savoir plus sur 
 - les [variables](./variables)
 - l'[expansion](./expansion)
+- les [patterns](./patterns)
 - les [redirections](./redirection)
+- le [démarrage](./bash_startup)
 - l'[history](./history)
 
 ## Tips
@@ -12,6 +14,7 @@ En savoir plus sur
 #### déplacer le curseur
 - **Ctrl**-**A** : début de ligne
 - **Ctrl**-**E** : fin de ligne
+- **Ctrl**-**U** : efface la ligne
 - **Alt**-**F** / **Ctrl**-**F**: mot suivant / caractère suivant
 - **Alt**-**B** / **Ctrl**-**B** : mot précédent
 

@@ -76,11 +76,21 @@ Le shell interprète
 
 ### Expansion de noms de fichiers
 
-Si un mot comprend un *, ? ou [], alors l'expansion de fichiers
+Si un mot comprend un *, ? ou [], alors l'expansion de fichiers est activée
 
+Attention : une fois l'expansion effectuée, tous les fichiers qui correspondent
+à un pattern fixé dans la variable **GLOBIGNORE** sont retirés
+
+- `*` match toute série de caractère, sauf :
+  - un `/`
+  - un `.` en début de fichier. Donc `echo *` ne liste pas les
+fichiers _.profile_, _.bashrc_ ...
 - `[a-d]*.sh` tous les fichiers qui commencent pas a,b,c ou d
-  - ATTENTION : fonctionnement différent de l'expansion de liste  `{a..d}.sh` ne tient pas compte des fichiers effectivement présents (et donne toujours le même résultat)  
-  l'expansion de liste intervient avant, et chaque item subira l'expension de fichier  
+  - il y a toujours au moins un caractère, donc `[]]` est légal, et matche `]`
+  - le `-` n'est pas interpreté en début et fin de liste, donc `[-+]` est légal
+       et match **+** ou **-**
+  - **ATTENTION** : fonctionnement différent de l'expansion de liste  `{a..d}.sh` ne tient pas compte des fichiers effectivement présents (et donne toujours le même résultat)  
+  l'expansion de liste intervient avant, et chaque item subira l'expension de fichier 
   Ex : `ls {a..c}*.sh` est équivalent à `ls a*.sh b*.sh c*.sh`
 - `?(a|d)` - occurence optionnelle d'une des branches  
 - `*(ab|cd)` - 0 ou plusieurs occurences de l'une des branches
@@ -91,14 +101,18 @@ Si un mot comprend un *, ? ou [], alors l'expansion de fichiers
 - `!()` - match tout sauf un des pattern
   - `ls !(*.jpg)` - tous les fichiers sauf les .jpg
 
-PLus de détails sur [Pattern Matching (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Pattern-Matching.html#Pattern-Matching).
+PLus de détails sur [Pattern Matching (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Pattern-Matching.html#Pattern-Matching) et sur 
+[Patterns and pattern matching [Bash Hackers Wiki]](https://wiki.bash-hackers.org/syntax/pattern)
 
-Suivant les options de shopt, si aucun fichier n'est trouvé pour un pattern, les résultats sont différents
+Suivant les options de [`shopt`](https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html), si aucun fichier n'est trouvé pour un pattern, les résultats sont différents (pour mémoire `shopt` affiche les options, et `shopt -s` et `shopt -u` permettent de 
+les activer ou désactiver)
 - avec *failglob*, une erreur est générée
 - avec *nullglob*, un mot vide est généré
-- sinon, le pattern est laissé tel quel
+- sinon, **le pattern est laissé tel quel**
+  - donc `echo *.jpg` produit `*.jpg`
 
 Certaines options sont actives par défaut :
 - avec *extglob* 
 D'autres options permettent de controler l'expansion
 - avec *nocaseglob*, les patterns ignorent la casse
+- avec *dotglob*, * 

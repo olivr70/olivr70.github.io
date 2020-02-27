@@ -10,6 +10,21 @@
 
 `set` pour fixer les paramètres. Ex : `set $(ls)`
 
+## les variables Bash
+
+[Bash Variables (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html#Bash-Variables)
+
+Avant le lancement de BASH
+- **$BASH_ENV**
+
+A noter :
+**$BASH** : le binaire vers le shell
+**$BASHOPTS** : une liste de nom d'options pour `shopt`
+**$BASHPID** : id du process
+**$BASH_VERSINFO** : ex : `echo ${BASH_VERSINFO[*]}` donne `4 4 20 1 release x86_64-pc-linux-gnu`
+**SHLVL** : niveau de profondeur du shell
+
+
 ## la substitution de variables
 
 Voir [How To Use Bash Parameter Substitution Like A Pro - nixCraft](https://www.cyberciti.biz/tips/bash-shell-parameter-substitution-2.html) et [Shell Parameter Expansion (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html#Shell-Parameter-Expansion)

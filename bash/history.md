@@ -12,7 +12,7 @@ ignore les commandes déjà présentes
 
 `Up`/`Down` - commande préc/suiv
 
-`Ctrl+R` - recherche dans l'history
+`Ctrl+R` - recherche dans l'history, et affiche le meilleur résultat
 
 ### Expansion
 
