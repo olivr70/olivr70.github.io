@@ -1,3 +1,17 @@
+
+## utilisateurs
+
+la commande `id` permet d'afficher des infos sur un utilisateur ou l'utilisateur courant
+- `id -u` => 1000 et `id -un` => _olivr70_
+- `id -g` => 1000 et `id -gn` => _olivr70_
+- `id -G` => _1000 24 27..._ et `id -Gn postgres` => _postgres ssl-cert_
+
+le bit `setuid` sur un fichier exécutable permettent à celui qui invoque de le faire
+avec les droits du propriétaire. De même le bit `setgid` avec le groupe propriétaire.
+Pour modifier : 
+- `chmod u+s myscript.sh` et `chmod g+s myscript.sh`
+
+
 ## [sudo](http://manpages.ubuntu.com/manpages/xenial/man8/sudo.8.html)
 
 Configuration:

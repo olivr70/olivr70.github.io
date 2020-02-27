@@ -2,9 +2,17 @@ Tout sur Linux
 
 - [Commandes diverses](./general)
 - [Configuration](./configuration)
+- Kernel
+  - [process](./process)
+  - [Network](./network)
+  - [Performance](./perf)
+  - [packages](./packages)
 - Stockage
   - [File system](/linux/filesystem)
+  - [direvent](./direvent)
   - [LVM](/linux/lvm) - Logical Volume Management
+  - [Dropbox](./dropbox.md)
+  - [OneDrive](./onedrive.md)
 - Initialisation
   - [cron](/linux/cron)
   - [init.d](/linux/init_d)
@@ -17,10 +25,6 @@ Tout sur Linux
   - [Variables](/linux/variables)
   - [Text manipulation](/linux/text)
 - [Sécurité](./security)
+  - [User](./user)
   - [ssh](/ssh)
 - [Maintenance](./maintenance.md)
-- [Network](./network)
-- [User](./user)
-- [Text](./text)
-- [Performance](./perf)
-- [Dropbox](./dropbox.md)
