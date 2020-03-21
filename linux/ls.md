@@ -1,3 +1,11 @@
+
+## exemples
+
+Pour... | Faire...
+-  | -
+Afficher seulement les directories | `ls -d */`
+Afficher seulement les directories (1 par ligne) | `ls -d1 */`
+
 ## couleurs
 
 ### voir

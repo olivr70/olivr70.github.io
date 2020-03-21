@@ -1,5 +1,8 @@
 
 
+
+
+
 ## `locate` et `updatedb`
 
 [`locate`](http://manpages.ubuntu.com/manpages/bionic/man1/locate.findutils.1.html) recherche les fichiers par leur nom dans une base de données globales.

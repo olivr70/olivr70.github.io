@@ -1,6 +1,21 @@
+
+## [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))
+
+La séquence **#!** en début de fichier est interprété par exec pour déterminer
+l'interpréteur à utiliser.
+
+Il doit être suivi du chemin absolu vers l'interpréteur. On peut utiliser
+**/usr/bin/env** avec comme premier argument le nom de l'interpréteur  
+Ex : `#!/usr/bin/env node`
+
 ## Commandes Linux diverses
 
-Divers commandes Linux
+Diverses commandes Linux
+### [type](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Bash-Builtins) 
+- `type -a` pour voir toutes les possibilités
+- `type -t` pour avoir juste le type
+
+
 
 ## [`watch`](https://linux.die.net/man/1/watch) exécute périodiquement une commane
 

@@ -24,7 +24,8 @@
 - `exec 2>errors` redirige l'erreur standard vers outfile pour toute la durée du script
 - `exec 0< infile` redirige infile dans l'entée standard
 - `exec 3> somefile` redirige le file descriptor 3 vers somefile
-  - on peut alors écrite "echo 'hello' 3>&
+  - on peut alors écrite `echo 'hello' >&3` (ou `echo >&3 'hello'`)
+  - et fermer le file descriptor avec `exec 3>&-`
 
 ### redirection vers un process
 
