@@ -3,7 +3,7 @@
 
 Pour des informations sur les [commandes de Ansible](./commands)
 
-Pour les [détails sur Jinja2(./jinja2)], utilisé pour toutes les expressions
+Pour les [détails sur Jinja2](./jinja2), utilisé pour toutes les expressions
 
 Pour l'utilisation de [HCloud avec Ansible](./ansible_and_hcloud)
 
