@@ -53,6 +53,9 @@
 
 ### directory structure
 
+[Filesystem Hierarchy Standard](http://www.pathname.com/fhs/pub/fhs-2.3.html) explique le rôle
+des différents dossiers de l'arborescence linux (/var, /usr, /usr/local...)
+
 ![Linux directories](./linux-system-directoies-poster-724x1024.png)
 
 ### Articles
