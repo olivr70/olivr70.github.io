@@ -20,9 +20,14 @@ Toute la doc : [Template Designer Documentation — Jinja Documentation (2.10.x)
 
 ## les filtres [doc](https://jinja.palletsprojects.com/en/2.10.x/templates/#list-of-builtin-filters)
 
+Voir également : [Filters — Ansible Documentation](https://docs.ansible.com/ansible/latest/user_guide/playbooks_filters.html#defaulting-undefined-variables)
+
 - sur des valeurs
   - `lower`, `upper`
   - `default('?')`
+    - remplace une valeur *undefined*. Pour remplacer aussi une chaine vide, il faut
+      passer true en second argument (par exemple après un lookup)  
+      `"{{ lookup('env', 'SSH_USER') | default('foo', true) }}"`
   -  `int`, `float` - conversion
   - `trim`
   - `truncate`
