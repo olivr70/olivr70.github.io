@@ -3,11 +3,14 @@
 Ces pages contiennent principalement de la documentation utile sur les outils que j'utilise
 
 - [Dev tools](/dev-tools)
-- [Markdown](/markdown)
 - [Ansible](/ansible)
 
-- [Bash](./bash)
-  - [History](/bash/history)
+- Languages
+  - [Bash](./bash)
+    - [History](/bash/history)
+  - [Markdown](/markdown)
+  - [PowerShell](/powershell)
+  - [SPARQL](/sparql)
 - [Git](./git)
 - [Linux](/linux)
   - [Commandes diverses](/linux/general)
@@ -32,8 +35,10 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
   - [Terminator](/linux/terminator)
   - [Vim](/vim)
 - Hosting
+  - [Dropbox](/linux/dropbox)
+  - [GitHub Pages](/github-pages)
   - [Hetzner - hcloud](./hosting/hetzner)
-  - [Nginx](/nginx)
+  - [NGINX](/nginx)
     - [SSL](/nginx/ssl)
   - [Node.js](/node)
     - [Modules](/node/modules)
@@ -41,14 +46,9 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
   - [Unicode](/formats/unicode)
 Développement
 - [SSL](/css)
-- [Markdown](/markdown)
 
 et aussi
-- [Dropbox](/linux/dropbox)
-- [GitHub Pages](/github-pages)
 - [LibreOffice](/libreoffice)
-- [NGINX](/nginx)
-- [PowerShell](/powershel)
 
 
 Menu
