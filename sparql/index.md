@@ -10,9 +10,9 @@ propriétés de base pour définir de nouveaux vocabulaires. Il définit **rdfs:
 
 Les triplets eux-mêmes sont représentés dans différents langages : 
 - [OWL 2 Web Ontology Language Mapping to RDF Graphs (Second Edition)](https://www.w3.org/TR/2012/REC-owl2-mapping-to-rdf-20121211/)
-- [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/)
+- [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/) (plus d'info dans [turtle])
 
-Il perm
+SPARQL permet de faire des requêtes sur les triplets d'un graphe
 
 [SPARQL](http://fr.dbpedia.org/sparqlTuto/tutoSparql.html#/h.85qeswuen3fj) permet de créer des requêtes sur des données RDF. [Plus...](./sparql)
 
