@@ -11,6 +11,7 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
   - [Markdown](/markdown)
   - [PowerShell](/powershell)
   - [SPARQL](/sparql)
+  - [XML](/xml)
 - [Git](./git)
 - [Linux](/linux)
   - [Commandes diverses](/linux/general)
