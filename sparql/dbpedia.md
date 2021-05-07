@@ -5,6 +5,10 @@ DBpedia est un projet universitaire et communautaire d'exploration et extraction
 
 Il existe une version française [DBpedia FR](http://fr.dbpedia.org/sparqlTuto/tutoSparql.html)) et anglaise[Virtuoso SPARQL Query Editor](http://dbpedia.org/sparql)
 
+On peut convertir une URL Wikipedia en DbPedia par simple remplacement du préfix
+- https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre
+- http://fr.dbpedia.org/page/Mus%C3%A9e_du_Louvre
+
 [DBpedia Mappings](http://mappings.dbpedia.org/index.php/Main_Page)
 
 ### Pour tester

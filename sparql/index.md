@@ -20,3 +20,4 @@ SPARQL permet de faire des requêtes sur les triplets d'un graphe
 Il existe plusieurs sources de données publiques
 - [dbpedia.fr](http://fr.dbpedia.org/) [Plus...](./dbpedia)
 - [wikidata](https://www.wikidata.org/) [Plus...](./wikidata)
+- [geonames](https://www.geonames.org/) et autres [Plus...](./geo)
