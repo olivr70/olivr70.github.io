@@ -1,4 +1,10 @@
 
+## la reprsentation des données géographiques
+
+- [wgs84](https://www.w3.org/2003/01/geo/wgs84_pos)
+```@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>```
+
+
 ## [Geonames](https://www.geonames.org/)
 
 Une API pour accéder à une base mondiale de noms géographiques
