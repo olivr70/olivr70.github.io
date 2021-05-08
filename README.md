@@ -51,6 +51,9 @@ Développement
 et aussi
 - [LibreOffice](/libreoffice)
 
+Repérages sur des algorithmes et ouils : 
+- [Phonétisation](/phonétisation)
+
 
 Menu
 {% for page in site.pages %}
