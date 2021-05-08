@@ -55,9 +55,9 @@ Repérages sur des algorithmes et ouils :
 - [Phonétisation](/phonétisation)
 
 
-Menu
+Les algorithmes
 {% for page in site.pages %}
-  {% if page.categories contains 'fruit' %}
+  {% if page.categories contains 'algorithme' %}
 - x [{{page.title}}]({{page.url}})
   {% endif %}
 {% endfor %}

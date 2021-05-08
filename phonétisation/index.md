@@ -1,3 +1,8 @@
+---
+categories: 
+- algorithme
+tags: [phonétisation, langage naturel] 
+---
 # Phonétisation
 
 
