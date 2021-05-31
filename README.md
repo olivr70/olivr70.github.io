@@ -4,6 +4,7 @@ Ces pages contiennent principalement de la documentation utile sur les outils qu
 
 - [Dev tools](/dev-tools)
 - [Ansible](/ansible)
+- [.Net](/dot-net) et [C#](/dot-net/c-sharp)
 
 - Languages
   - [Bash](./bash)
