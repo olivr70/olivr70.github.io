@@ -2,66 +2,18 @@
 
 Ces pages contiennent principalement de la documentation utile sur les outils que j'utilise
 
-- [Dev tools](/dev-tools)
-- [Ansible](/ansible)
-- [.Net](/dot-net) et [C#](/dot-net/c-sharp)
+Les langages
+L'[[ADMIN MOC|administration]] des PC ([[LINUX]] et [[ADMIN/windows/index|Windows]])
+Les [[DEV MOC|outils de développement]]
+Les outils de [[PKM MOC|Personal Knowledge Management PKM]]
 
-- Languages
-  - [Bash](./bash)
-    - [History](/bash/history)
-  - [Markdown](/markdown)
-  - [PowerShell](/powershell)
-  - [SPARQL](/sparql)
-  - [XML](/xml)
-- [Git](./git)
-- [Linux](/linux)
-  - [Commandes diverses](/linux/general)
-  - [apt](/linux/apt)
-  - [cron](/linux/cron)
-  - [Docker](/docker)
-  - [Maintenance](/linux/maintenance)
-  - Stockage
-    - [File system](/linux/filesystem)
-    - [LVM](/linux/lvm)
-  - Initialisation
-    - [cron](/linux/cron)
-    - [init.d](/linux/init_d)
-    - [runit](/linux/runit)
-    - [systemd](/linux/systemd)
-    - [cloud-init](/linux/cloud-init)
-  - [Network](/linux/network)
-  - [Pass](/pass)
-  - [Performance](/linux/perf)
-  - [Ssh](/ssh)
-  - [User](/linux/user)
-  - [Terminator](/linux/terminator)
-  - [Vim](/vim)
-- Hosting
-  - [Dropbox](/linux/dropbox)
-  - [GitHub Pages](/github-pages)
-  - [Hetzner - hcloud](./hosting/hetzner)
-  - [NGINX](/nginx)
-    - [SSL](/nginx/ssl)
-  - [Node.js](/node)
-    - [Modules](/node/modules)
-- [Formats](/formats)
-  - [Unicode](/formats/unicode)
-Développement
-- [SSL](/css)
 
-et aussi
-- [LibreOffice](/libreoffice)
 
 Repérages sur des algorithmes et ouils : 
 - [Phonétisation](/phonétisation)
 
 
-Les algorithmes
-{% for page in site.pages %}
-  {% if page.categories contains 'algorithme' %}
-- x [{{page.title}}]({{page.url}})
-  {% endif %}
-{% endfor %}
+
 
 
 Et aussi les notes sur plusieurs tâches réalisées (ou en cours)

@@ -1,0 +1,14 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":fly:",
+    ":clock1030:",
+    ":smile:",
+    ":checkered_flag:",
+    ":broken_heart:",
+    ":arrow_backward:"
+  ]
+}
