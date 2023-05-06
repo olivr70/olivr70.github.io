@@ -5,5 +5,5 @@ Les principaux outils de Persnal Knowledge Management
 - [[github-pages]]
 - [[Joplin]]
 - [[Notion]]
-- [[Obsidian]]
+- [[PKM/Outils de PKM/OBSIDIAN/index]]
 - [[Tana]]

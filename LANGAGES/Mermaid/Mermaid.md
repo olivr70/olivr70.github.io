@@ -1,5 +1,5 @@
 Un langage textuel pour créer différents types de graphes
-il est très largement supporté : [[Github Pages]], [[Notion]], [[Obsidian]], [[Joplin]], Azure
+il est très largement supporté : [[Github Pages]], [[Notion]], [[PKM/Outils de PKM/OBSIDIAN/index]], [[Joplin]], Azure
 
 Un [éditeur interactif en ligne](https://mermaid.live/) est disponible
 

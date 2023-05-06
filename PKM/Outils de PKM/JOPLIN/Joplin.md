@@ -9,7 +9,7 @@ Ouverture vers l'extérieur
 - une API data pour accéder aux données
 - une API plugin (en Typescript)
 
-Découvert car il permet notamment de convertir des carnets [[Evernote]] en [[LANGAGES/markdown]]. On peut ensuite copier le dossier dans [[github-pages]] ou un coffre [[Obsidian]].
+Découvert car il permet notamment de convertir des carnets [[Evernote]] en [[LANGAGES/markdown]]. On peut ensuite copier le dossier dans [[github-pages]] ou un coffre [[PKM/Outils de PKM/OBSIDIAN/index]].
 
 ## Travail distribué
 L'application mobile et les version Windows se synchronisent via le service payant Joplin sync.

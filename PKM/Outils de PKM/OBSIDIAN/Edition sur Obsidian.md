@@ -1,4 +1,4 @@
-
+Complément à [[Markdown]]
 ## Utiliser des images
 
 On peut coller une image directement dans une note. Une préférence permet de fixer le lieu ou seront par défaut enregistrés les éléments collés

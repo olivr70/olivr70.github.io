@@ -1,7 +1,7 @@
 ---
 Tags: [Obsidian, Markdown]
 ---
-- [ ] Les informations sur les capacités particulières de [[Obsidian]] pour le formatage. Voir [[LANGAGES/markdown/Markdown|Markdown]] pour le formatage de base.
+- [ ] Les informations sur les capacités particulières de [[PKM/Outils de PKM/OBSIDIAN/index]] pour le formatage. Voir [[LANGAGES/markdown/Markdown|Markdown]] pour le formatage de base.
 # Liens
 - Deux syntaxes
 	- classique : `[TITRE DU LIEN](url)`

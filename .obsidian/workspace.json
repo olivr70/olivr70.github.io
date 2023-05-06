@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md",
+                "file": "PKM/Outils de PKM/OBSIDIAN/Edition sur Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfc50d44c7fd4610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LANGAGES/markdown/Markdown.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PKM/Outils de PKM/OBSIDIAN/Obsidian.md",
+                "file": "PKM/Outils de PKM/OBSIDIAN/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "office",
+                "query": "note",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md",
+                "file": "LANGAGES/markdown/Markdown.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md",
+                "file": "LANGAGES/markdown/Markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,15 +198,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md"
+                "file": "LANGAGES/markdown/Markdown.md"
               }
             }
+          },
+          {
+            "id": "7555d04592c64fe8",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 364.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +227,15 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "e35f41354226a295",
+  "active": "7555d04592c64fe8",
   "lastOpenFiles": [
+    "PKM/Outils de PKM/OBSIDIAN/Edition sur Obsidian.md",
+    "PKM/Outils de PKM/OBSIDIAN/index.md",
+    "PKM/Outils de PKM/OBSIDIAN/Formatage sur Obsidian.md",
+    "LANGAGES/markdown/Markdown.md",
+    "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md",
     "README.md",
     "PKM/PKM MOC.md",
-    "PKM/Outils de PKM/OBSIDIAN/Obsidian.md",
     "DEV/DEV MOC.md",
     "ADMIN/windows/index.md",
     "ADMIN/linux/LINUX.md",
@@ -230,10 +255,6 @@
     "ADMIN/ansible/ANSIBLE.md",
     "ansible.md",
     "ADMIN/linux/general.md",
-    "ADMIN/linux/network.md",
-    "ADMIN/linux/perf.md",
-    "ADMIN/linux/user.md",
-    "ADMIN/linux/terminator.md",
     "Sans titre.canvas",
     "PKM/PKM canvas.canvas",
     "DAILY",
