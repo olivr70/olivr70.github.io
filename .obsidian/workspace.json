@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LANGAGES/markdown/Markdown.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LANGAGES/markdown/Markdown.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LANGAGES/markdown/Markdown.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LANGAGES/markdown/Markdown.md"
+                "file": "README.md"
               }
             }
           },
@@ -227,12 +227,12 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "7555d04592c64fe8",
+  "active": "bfc50d44c7fd4610",
   "lastOpenFiles": [
+    "LANGAGES/markdown/Markdown.md",
     "PKM/Outils de PKM/OBSIDIAN/Edition sur Obsidian.md",
     "PKM/Outils de PKM/OBSIDIAN/index.md",
     "PKM/Outils de PKM/OBSIDIAN/Formatage sur Obsidian.md",
-    "LANGAGES/markdown/Markdown.md",
     "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md",
     "README.md",
     "PKM/PKM MOC.md",

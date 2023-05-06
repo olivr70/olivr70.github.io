@@ -9,7 +9,7 @@ Les outils de [[PKM MOC|Personal Knowledge Management PKM]]
 
 
 
-Repérages sur des algorithmes et ouils : 
+Repérages sur des algorithmes et outils : 
 - [Phonétisation](/phonétisation)
 
 
