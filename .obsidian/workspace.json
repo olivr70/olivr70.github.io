@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "37c97b468bf5ccca",
+    "type": "split",
+    "children": [
+      {
+        "id": "60567f9482b140c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4862627f2fda44d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LANGAGES/powershell/Powershell index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1570d5069fa92446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LANGAGES/LANGAGES MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a25decedeac97b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8419ea90187fd15a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PKM/Outils de PKM/OBSIDIAN/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35fdc1e90ed5da88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PKM/Outils de PKM/OBSIDIAN/Modules complémentaires pour Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52e1b2685bb7508b",
+    "type": "split",
+    "children": [
+      {
+        "id": "680d2aa338bad851",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1ed39b99966832e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b911e31e54df589c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "note",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0b92c87b839670d8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fdf72d8ff53d3449",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a5a4195cb51881b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c52794414b1ae2f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "35e9cfed823af25b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c1ebc151b89f1f0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b9e6ae856f148e24",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "7555d04592c64fe8",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 364.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "3a25decedeac97b9",
+  "lastOpenFiles": [
+    "PKM/Outils de PKM/OBSIDIAN/Edition sur Obsidian.md",
+    "README.md",
+    "LANGAGES/markdown/Markdown.md",
+    "PKM/Outils de PKM/OBSIDIAN/index.md",
+    "PKM/Outils de PKM/OBSIDIAN/Formatage sur Obsidian.md",
+    "PKM/Outils de PKM/GITHUB PAGES/Github Pages.md",
+    "PKM/PKM MOC.md",
+    "DEV/DEV MOC.md",
+    "ADMIN/windows/index.md",
+    "ADMIN/linux/LINUX.md",
+    "DEV/libreoffice/index.md",
+    "LANGAGES/openoffice/openoffice MOC.md",
+    "LANGAGES/LANGAGES MOC.md",
+    "LANGAGES/openoffice/api.md",
+    "LANGAGES/openoffice/oo-security.md",
+    "ADMIN/vim/VIM.md",
+    "LANGAGES/openoffice/commandline.md",
+    "LANGAGES/openoffice/base-sql.md",
+    "LANGAGES/openoffice/base-reports.md",
+    "LANGAGES/openoffice/oo-config.md",
+    "DEV/css/CSS.md",
+    "DEV/c_sharp/C SHARP.md",
+    "ADMIN/ADMIN MOC.md",
+    "ADMIN/ansible/ANSIBLE.md",
+    "ansible.md",
+    "ADMIN/linux/general.md",
+    "Sans titre.canvas",
+    "PKM/PKM canvas.canvas",
+    "DAILY",
+    "PKM/Podcast tools",
+    "capture d’écran.png",
+    "Mermaid",
+    "LANGAGES/Mermaid",
+    "PERSO",
+    "PERSO/CAVE",
+    "PKM/Outils de PKM/READWISE",
+    "PKM/Méthodes",
+    "LANGAGES",
+    "ADMIN",
+    "ADMIN/linux/linux-system-directoies-poster-724x1024.png"
+  ]
+}
